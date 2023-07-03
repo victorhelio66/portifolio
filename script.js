@@ -5,8 +5,8 @@ function toggleMode () {
   const img  = document.querySelector("#profile img")
 
   if(html.classList.contains("ligth")) {
-    img.setAttribute("src", "")
+    img.setAttribute("src", "./assents/perfilL.png")
   } else {
-    img.setAttribute("src", "")
+    img.setAttribute("src", "./assents/perfilD.png")
   }
 }
